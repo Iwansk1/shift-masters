@@ -4,7 +4,7 @@ import { VehicleSpec } from "./types";
 // 🧠 Tunable constants
 const BASE_ENGINE_TORQUE = 50; // Nm at idle, simulates engine assist
 const LOAD_FACTOR = 0.02; // Lower load torque multiplier
-const MIN_THROTTLE_FOR_LOAD = 0.05;
+// const MIN_THROTTLE_FOR_LOAD = 0.05;
 
 const WOBBLE_FREQUENCY = 5; // Hz (5 oscillations per second)
 const MAX_WOBBLE_AMPLITUDE = 50; // Max RPM wobble amplitude

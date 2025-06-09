@@ -7,7 +7,7 @@ import { ManualShifter } from "@/components/GearShifter";
 import { calculateRPM, calculateSpeed } from "@/lib/GearboxLogic";
 import { vehicles } from "@/lib/vehicles";
 import { VehicleSpec } from "@/lib/types";
-import { ShiftLight } from "./ShiftLight";
+import { ShiftLight } from "@/components/ShiftLight";
 
 export default function SimulatorCanvas() {
     const [selectedVehicle, setSelectedVehicle] = useState<VehicleSpec>(
